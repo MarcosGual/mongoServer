@@ -4,6 +4,6 @@ const {vistaGatitos, crearGatito} = require('../controller/controller.js')
 
 /* GET users listing. */
 router.get('/ver', vistaGatitos);
-router.post('/crear/:name', crearGatito);
+router.post('/crear', crearGatito);
 
 module.exports = router;
